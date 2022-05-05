@@ -1,0 +1,325 @@
+.live{
+    width:100%;
+}
+.header{
+    width:100%;
+    margin:0 auto;
+}
+.header .header1,.header .header2,.header .header3,.header .header4{
+    float:left;
+}
+.header1 a,.header4 a{
+    float:left;
+    margin:5px;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.header1{
+    margin-top:8px;
+    margin-left: 100px;
+}
+
+.header2 div{
+    float:left;
+}
+.header2 input{
+    width:300px;
+    height:30px;
+    outline:none;
+    padding-left: 4px;
+}
+.header2 img{
+    cursor:pointer;
+}
+.header2{
+    margin:5px 180px;
+}
+.header3 img{
+    width:30px;
+    height:30px;
+    border: 3px solid lightsteelblue;
+    cursor:pointer;
+    margin-top: 5px;
+}
+.header4{
+    margin-top:8px;
+    margin-left:5px;
+}
+.video{
+    width:100%;
+    margin:0 auto;
+    background-image:url(../img/live_video/bg.png);
+    height: 605px;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+}
+.video .video1,.video .video2{
+    float:left;
+}
+.video1 .img{
+    width: 950px;
+    height: 550px;
+    /*Ìí¼ÓÐ§¹û*/
+}
+.video .video1{
+    margin-left:200px;
+    margin-top: 20px;
+    margin-right: 10px;
+    position:relative;
+}
+.video1 button{
+    position:absolute;
+    left:40%;
+    top:40%;
+    width:200px;
+    height:80px;
+    text-align: center;
+    background-color:rgba(128,128,128,0.8);
+    border: 0;
+    color:lightsteelblue;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+}
+.video1 div{
+    background-color:rgba(128,128,128,0.5);
+    width: 950px;
+    height: 50px;
+    position:absolute;
+    left:0;
+    bottom:1%;
+    display: none;
+}
+.video1 .img1{
+    position:absolute;
+    left:0;
+    bottom:1%;
+    cursor:pointer;
+}
+.video1 .img2{
+    position:absolute;
+    left:10%;
+    bottom:1%;
+    cursor:pointer;
+}
+.video1 .img3{
+    position:absolute;
+    right:0;
+    bottom:1%;
+    cursor:pointer;
+}
+.video2 img{
+    width: 200px;
+    height: 90px;
+    margin: 8px;
+    cursor:pointer;
+}
+.video .video2{
+    margin-top:20px;
+    background-color: rgba(128,128,128,0.5);
+}
+.video2 .v1,.video2 .v2,.video2 .v3,.video2 .v4,.video2 .v5{
+    position:relative;
+}
+.video2 p{
+    position:absolute;
+    left:5%;
+    top:70%;
+    color:white;
+    font-size: 10px;
+}
+
+.video3 div,.video3 button{
+    float:left;
+}
+.video3 input{
+    width:500px;
+    height:26px;
+    outline:none;
+    padding-left: 4px;
+    margin-left:300px;
+}
+.video3 button{
+    width:100px;
+    height:30px;
+    text-align: center;
+    background-color:lightsteelblue;
+    border: 0;
+    color:white;
+    font-size: 10px;
+    font-weight: bold;
+    cursor:pointer ;
+}
+.type,.hot,.like{
+    width:1000px;
+    margin:30px auto;
+}
+.type button{
+    width:90px;
+    height:50px;
+    text-align: center;
+    background-color:lightsteelblue;
+    border: 0;
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 24px;
+    cursor:pointer ;
+}
+.hot .hot1,.hot .hot2,.hot .hot3,.hot .hot4{
+    float:left;
+}
+.hot1{
+    margin-left:20px;
+    margin-right:10px;
+}
+.hot1 img{
+    border: 2px solid lightsteelblue;
+}
+.hot2,.hot3,.hot4{
+    background-color: lightsteelblue;
+    margin:0 15px;
+}
+.hot3, .hot4{
+    width: 170px;
+    height: 229px;
+}
+.hot2 h4,.hot3 h4,.hot4 h4{
+    margin-top:5px;
+    margin-bottom: 6px;
+    margin-left:1px;
+}
+.hot2 h4, .hot2 span{
+    float:left;
+}
+.hot2 span{
+    margin-top: 8px;
+    margin-left: 50px;
+    font-size: 10px;
+    cursor: pointer;
+    color:white;
+}
+.hot2 img{
+    width: 150px;
+    height: 75px;
+    cursor: pointer;
+}
+.hot2 p{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+.hot3 li,.hot4 li{
+    margin-top:20px;
+    margin-left:20px;
+    font-size: 14px;
+    list-style:decimal;
+    cursor:pointer ;
+}
+.hot3 img,.hot4 img{
+    width: 13px;
+    height: 13px;
+}
+.hot3 p,.hot4 p{
+    cursor:pointer ;
+    text-align: center;
+    color:white;
+    font-size:14px ;
+    font-weight: bold;
+    margin-top:10px;
+}
+.like .d1{
+    float: left;
+    margin-right: 40px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.like h4{
+    margin-bottom: 20px;
+    margin-left:80px;
+    cursor: pointer;
+}
+.like img{
+    width: 210px;
+    height: 200px;
+    cursor: pointer;
+}
+.like h5{
+    text-align: left;
+    cursor: pointer;
+    position: absolute;
+    bottom:11%;
+    color: white;
+    background-color:rgba(128,128,128,0.8);
+}
+.like p{
+    text-align: center;
+    font-size:14px ;
+    color:lightsteelblue;
+    cursor: pointer;
+}
+.end{
+    width:100%;
+    border-top:1px solid lightsteelblue;
+    margin-top:30px;
+}
+.end .app,.end .list{
+    float:left;
+}
+.pic{
+    margin-top:10px;
+}
+.pic img{
+    width:100%;
+    height:100px;
+}
+.list{
+    margin:0 300px;
+}
+.list li{
+    list-style:none;
+    padding: 20px;
+}
+.list a{
+    color: black;
+    font-size:14px;
+}
+.list ul{
+    margin:10px;
+}
+.list .lis{
+    border-right: 2px solid lightsteelblue;
+}
+.list ul,.app div{
+    float:left;
+}
+.app h3{
+    margin:5px 0;
+    cursor: pointer;
+}
+.app p{
+    margin-bottom:5px;
+    cursor: pointer;
+}
+.app .er{
+    margin-top:15px;
+    margin-left:10px;
+}
+.fix {
+    background-color:lightsteelblue ;
+    position:fixed;
+    right:0;
+    top:200px;
+}
+.fix p{
+    padding:0 5px;
+    margin:5px 0;
+}
+.fix a{
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+}
